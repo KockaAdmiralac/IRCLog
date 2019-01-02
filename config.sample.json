@@ -1,0 +1,13 @@
+{
+    "host": "chat.freenode.net",
+    "port": 6697,
+    "nick": "KockaRelay",
+    "username": "KockaBot",
+    "password": "cubesarecool123",
+    "channel": "#wikia-vstf",
+    "realname": "Simple IRC -> Discord relay",
+    "id": "1234",
+    "token": "abcd",
+    "relay": "RansomRelay",
+    "leave": "o/"
+}
