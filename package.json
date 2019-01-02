@@ -15,6 +15,10 @@
     "scripts": {
         "start": "node main.js"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/KockaAdmiralac/IRCLog.git"
+    },
     "dependencies": {
         "eslint": ">=5.11.1",
         "irc-upd": ">=0.10.0",

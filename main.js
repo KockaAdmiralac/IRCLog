@@ -30,7 +30,7 @@ function relay(name, text) {
             content: text
                 .replace(/@(everyone|here)/g, '@\u200B$1')
                 .replace(/discord\.gg/g, 'discord\u200B.gg')
-                .replace(/https?:\/\/\S+/g, m => `<${m}>`),
+                .replace(/<?(https?:\/\/[^\s>]+)>?/g, '<$1>'),
             username: name.slice(0, 32)
         },
         headers: {
