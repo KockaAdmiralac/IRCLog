@@ -111,7 +111,7 @@ const bot = new Client(
     }
 })
 .on('quit', function(nick, reason, channels) {
-    if (channels.include(config.channel)) {
+    if (channels.includes(config.channel)) {
         if (reason) {
             relay('ChanServ', `${nick} left: *${reason}*`);
         } else {
