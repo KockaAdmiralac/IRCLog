@@ -15,10 +15,11 @@ Configuration options are stored in JSON format, and here are their meanings:
 - `nick`: IRC bot's nickname.
 - `username`: IRC bot's username.
 - `password`: IRC bot's IRC password.
-- `channel`: Channel the bot should be relaying.
+- `channels`: Channels the bot should be relaying. Represents an array of objects with the following properties:
+    - `name`: Name of the channel to relay.
+    - `id`: ID of the Discord webhook to relay activity to.
+    - `token`: Token of the Discord  webhook to relay activity to.
 - `realname`: IRC bot's realname.
-- `id`: ID of the Discord webhook.
-- `token`: Token of the Discord webhook.
 - `relay`: A bot representing another relay.
 - `leave`: Message shown to other users when leaving (CTRL+C).
 

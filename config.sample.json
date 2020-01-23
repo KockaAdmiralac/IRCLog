@@ -4,10 +4,14 @@
     "nick": "KockaRelay",
     "username": "KockaBot",
     "password": "cubesarecool123",
-    "channel": "#wikia-vstf",
+    "channels": [
+        {
+            "name": "#wikia-vstf",
+            "id": "1234",
+            "token": "abcd"
+        }
+    ],
     "realname": "Simple IRC -> Discord relay",
-    "id": "1234",
-    "token": "abcd",
-    "relay": "RansomRelay",
+    "relay": "VSTFUtility",
     "leave": "o/"
 }

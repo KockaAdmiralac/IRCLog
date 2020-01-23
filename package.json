@@ -1,6 +1,6 @@
 {
     "name": "discord-irc",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Simple IRC -> Discord relay via webhooks.",
     "keywords": [
         "discord",
@@ -8,8 +8,8 @@
     ],
     "author": {
         "name": "KockaAdmiralac",
-        "email": "1405223@gmail.com",
-        "url": "https://github.com/KockaAdmiralac"
+        "email": "git@kocka.tech",
+        "url": "https://kocka.tech"
     },
     "main": "main.js",
     "scripts": {
@@ -20,10 +20,11 @@
         "url": "https://github.com/KockaAdmiralac/IRCLog.git"
     },
     "dependencies": {
-        "eslint": ">=5.11.1",
-        "irc-upd": ">=0.10.0",
-        "request": ">=2.88.0",
-        "request-promise-native": ">=1.0.5"
+        "discord.js": ">=11.5.1",
+        "irc-upd": ">=0.10.0"
+    },
+    "devDependencies": {
+        "eslint": ">=6.8.0"
     },
     "private": true
 }
