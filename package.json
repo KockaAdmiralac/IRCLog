@@ -20,7 +20,7 @@
         "url": "https://github.com/KockaAdmiralac/IRCLog.git"
     },
     "dependencies": {
-        "discord.js": ">=11.5.1",
+        "discord.js": ">=12.0.2",
         "irc-upd": ">=0.10.0"
     },
     "devDependencies": {
