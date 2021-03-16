@@ -1,6 +1,8 @@
 # IRCLog
 Very simple IRC -> Discord relay. Intended for relaying activity from the `#wikia-vstf` channel on Freenode, as a replacement for [CVNAdvanced](https://github.com/KockaAdmiralac/CVNAdvanced)'s logging functionality.
 
+As `#wikia-vstf` and related Fandom channels are no longer used, I don't intend to maintain this relay further, so this repository has been archived.
+
 ## Installation
 To set up the dependencies, run:
 ```console
