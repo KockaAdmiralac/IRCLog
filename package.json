@@ -1,6 +1,6 @@
 {
     "name": "discord-irc",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "Simple IRC -> Discord relay via webhooks.",
     "keywords": [
         "discord",
@@ -20,11 +20,11 @@
         "url": "https://github.com/KockaAdmiralac/IRCLog.git"
     },
     "dependencies": {
-        "discord.js": ">=12.0.2",
-        "irc-upd": ">=0.10.0"
+        "discord.js": ">=12.5.1",
+        "irc-upd": ">=0.11.0"
     },
     "devDependencies": {
-        "eslint": ">=6.8.0"
+        "eslint": ">=7.22.0"
     },
     "private": true
 }
